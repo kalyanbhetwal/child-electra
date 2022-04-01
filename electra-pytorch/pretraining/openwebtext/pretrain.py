@@ -31,7 +31,7 @@ class Args:
     data_dir: arg.Str = 'data/aochildies_features'
     data_vocab_file: arg.Str = 'data/vocab.txt'
     data_n_tensors_per_file: arg.Int = 2048
-    data_max_seq_length: arg.Int = 128
+    data_max_seq_length: arg.Int = 8
 
     gpu: arg.Int = 0
     gpu_enabled: arg.Bool = False
@@ -46,7 +46,7 @@ class Args:
     model_mask_prob: arg.Float = 0.15
 
     opt_lr: arg.Float = 5e-4
-    opt_batch_size: arg.Int = 128 // (distributed_world_size if distributed_enabled else 1)
+    opt_batch_size: arg.Int = 8 // (distributed_world_size if distributed_enabled else 1)
     opt_warmup_steps: arg.Int = 10_000
     opt_num_training_steps: arg.Int = 200_000
 

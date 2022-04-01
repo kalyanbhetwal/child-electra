@@ -11,8 +11,7 @@ import numpy as np
 import torch
 import torch.utils.data
 
-from openwebtext import tokenization
-
+from pretraining.openwebtext import tokenization
 
 class ExampleBuilder:
     """Given a stream of input text, creates pretraining examples."""
