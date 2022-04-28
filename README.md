@@ -3,7 +3,8 @@
 
 1. Download the AO-Childize dataset.
 
-``` The dataset and respective vocab are already present in the repo.
+``` 
+The dataset and respective vocab are already present in the repo.
 ```
 
 2. Tokenize dataset.
