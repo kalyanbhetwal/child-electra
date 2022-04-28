@@ -153,7 +153,7 @@ $ python setup.py test
 
 ## Training
 
-1. Download the [OpenWebText](https://github.com/jcpeterson/openwebtext) dataset.
+1. Download the AO-Childize dataset.
 
 ```bash
 $ mkdir data
