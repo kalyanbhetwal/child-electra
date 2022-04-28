@@ -153,16 +153,12 @@ $ python setup.py test
 
 ## Training
 
-1. Download the [OpenWebText](https://github.com/jcpeterson/openwebtext) dataset.
+1. Download the AO-Childize dataset.
 
 ```bash
 $ mkdir data
 $ cd data
-$ pip3 install gdown
-$ gdown --id 1EA5V0oetDCOke7afsktL_JDQ-ETtNOvx
-$ tar -xf openwebtext.tar.xz
-$ wget https://storage.googleapis.com/electra-data/vocab.txt
-$ cd ..
+
 ```
 
 2. Tokenize dataset.
