@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # Data
-data
+#data
+data/glue_data
 output

@@ -479,7 +479,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False):
 #   --overwrite_output_dir \
 #   --cache_dir cache_glue_bert
 
-def main(task='MRPC', seed=42, ckpt='output/pretrain/2020-08-28-02-41-37/ckpt/60000'):
+def main(task='CoLA', seed=42, ckpt='output/pretrain/2020-08-28-02-41-37/ckpt/60000'):
     parser = argparse.ArgumentParser()
 
     # Required parameters
@@ -491,7 +491,7 @@ def main(task='MRPC', seed=42, ckpt='output/pretrain/2020-08-28-02-41-37/ckpt/60
     )
     parser.add_argument(
         "--model_type",
-        default="bert",
+        default="electra",
         type=str,
     )
     parser.add_argument(

@@ -80,7 +80,7 @@ def train(rank, args):
     ## preamble
 
     set_gpus(rank)
-    set_seed(rank)
+    set_seed(0)
     set_cuda(deterministic=args.gpu_deterministic)
 
     output_dir = f'{args.output_dir}/{rank}'
