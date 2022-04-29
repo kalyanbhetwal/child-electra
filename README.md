@@ -38,7 +38,7 @@ We are initially releasing three pre-trained models:
 
 | Model | Layers | Hidden Size | Params | GLUE score (test set) | Download |
 | --- | --- | --- | --- | ---  | --- |
-| ELECTRA-1 | 12 | 256 |  |  | [link]() |
+| ELECTRA-1 | 12 | 256 |  |  | [link](https://github.com/kalyanbhetwal/child-electra/blob/main/pretrain/default(H%3D12%2C%20HS%3D256%2C%20A%3D4).zip) |
 | ELECTRA-2 | 10 | 256 |  |  | [link]() |
 | ELECTRA-3 |  8 | 256 |  |   | [link]() |
 
