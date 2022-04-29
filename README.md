@@ -51,7 +51,7 @@ We are initially releasing three pre-trained models:
 
 
 | Model | Attention Head | Layers | Hidden Size | Params | GLUE score (test set) | Download |
-| --- |---| --- | --- | --- | --- | ---  | --- |
+| --- | --- | --- | --- | --- | --- | ---  | --- |
 | ELECTRA-1 |4 | 12 | 256 | 14M |  | [link]() |
 | ELECTRA-2 | 2|12 | 256 | 110M |  | [link]() |
 
