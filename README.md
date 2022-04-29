@@ -30,3 +30,14 @@ $ python examples/glue/download.py
 ```bash
 $ python examples/glue/run.py --model_name_or_path output/yyyy-mm-dd-hh-mm-ss/ckpt/200000
 ```
+
+
+## Released Models
+
+We are initially releasing three pre-trained models:
+
+| Model | Layers | Hidden Size | Params | GLUE score (test set) | Download |
+| --- | --- | --- | --- | ---  | --- |
+| ELECTRA-1 | 12 | 256 | 14M |  | [link]() |
+| ELECTRA-2 | 10 | 768 | 110M |  | [link]() |
+| ELECTRA-3 |  8 | 1024 | 335M |   | [link]() |
