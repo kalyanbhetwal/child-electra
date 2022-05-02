@@ -34,7 +34,7 @@ $ python examples/glue/run.py --model_name_or_path output/yyyy-mm-dd-hh-mm-ss/ck
 
 ## Released Models
 
-We are initially releasing three pre-trained models:
+We are initially releasing these pre-trained models:
 
 | Model | Layers | Hidden Size | Params | GLUE score (test set) | Download |
 | --- | --- | --- | --- | ---  | --- |
